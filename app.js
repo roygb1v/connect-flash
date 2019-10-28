@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 
 app.get('/contact', (req, res) => {
 	res.send(req.flash('message'));
-})
+});
 
 app.listen(port, () => {
 	console.log('Server is up and listening on', port);
-})
+});
